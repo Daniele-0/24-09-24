@@ -1,16 +1,30 @@
-// Fig. 12.7: LabelTest.java
-// Testing LabelFrame.
+// A linha abaixo importara o componente JFrame do modulo swing da biblioteca (pacote) javax
 import javax.swing.JFrame;
 
+// A linha abaixo esta declarando a classe LabelTest
 public class LabelTest 
+//...
 {
+//... A linha abaixo esta declarando o método main
    public static void main(String[] args)
+   //...
    { 
-      LabelFrame labelFrame = new LabelFrame(); 
+      // A linha abaixo esta declarando LabelFrame que é do tipo LabelFrame (construtor), declarando a váriavel
+         LabelFrame labelFrame = new LabelFrame(); 
+
+         // A linha abaixo esta definido a operação de fechamento padrão
       labelFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+      // A linha abaixo define (setar) o tamanho
       labelFrame.setSize(260, 180); 
+
+      // A linha abaixo diz aparece ai, se mostra, true é o verdadeiro
       labelFrame.setVisible(true); 
+
+      // Na linha abaixo a gente encerra o bloco de códigos do método
    } 
+
+   // Nesta linha encerramos o bloco de código da classe
 } // end class LabelTest
 
 
